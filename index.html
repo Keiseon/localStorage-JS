@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <h2 id="pageTitle">Local Storage: - JavaScript</h2>
+    <hr />
+
+    <fieldset>
+      <legend>Insert Data: (Input:)</legend>
+      <input id="inpKey" type="text" placeholder="Enter Key..." />
+      <input id="inpValue" type="text" placeholder="Enter Value..." />
+      <button id="btnInsert" type="button">Insert Data</button>
+      <button id="btnClear" type="button">Clear Local Storage</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Local Storage (Output:)</legend>
+      <h3>Data represented as [ Key <---> Value ] Pairs</h3>
+      <div id="lsOutput"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Remove Data:</legend>
+      <input id="rmKey" type="text" placeholder="Enter Key to delete..." />
+      <button id="btnRemove" type="button">Remove Data</button> <br />
+      <div id="rmDisplay"></div>
+    </fieldset>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
